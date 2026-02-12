@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brown Bean Coffee Order</title>
+
+<style>
+body{
+    font-family: Arial;
+    background: linear-gradient(to right,#efebe9,#d7ccc8);
+    text-align:center;
+    margin:0;
+}
+
+.box{
+    background:white;
+    width:650px;
+    margin:40px auto;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+
+h2,h3{ color:#6f4e37; }
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.card{
+    background:#f9f9f9;
+    width:160px;
+    padding:10px;
+    border-radius:15px;
+}
+
+.card img{
+    width:120px;
+    height:120px;
+    border-radius:15px;
+}
+
+input, textarea, button{
+    width:95%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:15px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:#6f4e37;
+    color:white;
+    border:none;
+    font-size:16px;
+    margin-top:20px;
+    cursor:pointer;
+}
+/* Confirmation section */
+#confirmation{
+    display:none;
+}
+
+#confirmation:target{
+    display:block;
+}
+
+/* Button container */
+.bottom-btn{
+    margin-top:20px;        /* correct syntax */
+    text-align:center;
+}
+
+/* Medium-sized button */
+.bottom-btn button{
+    width:220px;            /* medium size */
+    padding:12px 20px;
+    font-size:16px;
+    border-radius:12px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<!-- COFFEE MENU -->
+<div class="box">
+<h2>☕ Choose Your Coffee</h2>
+
+<div class="menu">
+
+<div class="card">
+<img src="Espersso.jpg">
+<h4>Espresso ₹80</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="Coffee.jpg">
+<h4>Cappuccino ₹120</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="Lattle.webp">
+<h4>Latte ₹140</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="Cold coffee.webp">
+<h4>Cold Coffee ₹150</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="Mocha.jpg">
+<h4>Mocha ₹160</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="Cappuccino.webp">
+<h4>Americano ₹110</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="Flatwhite.jpg">
+<h4>Flat White ₹130</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="Macchiato.jpg">
+<h4>Macchiato ₹120</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="irish.jpg">
+<h4>Irish Coffee ₹180</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+<div class="card">
+<img src="Feappuccino.jpg">
+<h4>Frappuccino ₹160</h4>
+<input type="checkbox"> Qty <input type="number" value="1">
+</div>
+
+</div> <!-- end menu -->
+
+<div class="bottom-btn">
+    <a href="order details.html">
+        <button type="button">Order Confirmation</button>
+    </a>
+</div>
+
+</div>
+
+
